@@ -2,7 +2,7 @@
 
 **Omnix** is a modular, AI-augmented experimental operating system kernel written in **Rust** and **C**, featuring:
 
-- 🚫 **Non-POSIX system call interface** (`om_syscall`) for modern interaction models
+- 🚫 **Non-POSIX system call interface** (`syscall`) for modern interaction models
 - 🧠 **Self-adaptive kernel logic** via telemetry + rule-based or ML decision engines
 - 🔌 **Pluggable kernel modules** (including safe, sandboxed modules via WebAssembly)
 - 🛠️ **Custom hardware abstraction** via a message-driven HAL (Hardware Abstraction Layer++)
